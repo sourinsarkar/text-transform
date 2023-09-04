@@ -534,10 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.m-0 {
-  margin: 0px;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -545,33 +541,6 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.mx-\[20\%\] {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.mx-\[10\%\] {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.mt-\[\] {
-  margin-top: ;
-}
-
-.mt-\[20\] {
-  margin-top: 20;
-}
-
-.mt-\[20\%\] {
-  margin-top: 20%;
 }
 
 .flex {
@@ -586,21 +555,8 @@ video {
   max-width: 48rem;
 }
 
-.max-w-lg {
-  max-width: 32rem;
-}
-
-.max-w-max {
-  max-width: -moz-max-content;
-  max-width: max-content;
-}
-
 .max-w-md {
   max-width: 28rem;
-}
-
-.max-w-sm {
-  max-width: 24rem;
 }
 
 .flex-grow {
@@ -609,10 +565,6 @@ video {
 
 .resize-none {
   resize: none;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -659,24 +611,67 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.text-\[\] {
+  color: ;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.text-\[\#96A6C7\] {
+  --tw-text-opacity: 1;
+  color: rgb(150 166 199 / var(--tw-text-opacity));
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
+.text-\[\#687da6\] {
+  --tw-text-opacity: 1;
+  color: rgb(104 125 166 / var(--tw-text-opacity));
+}
+
+.text-\[\#7288b4\] {
+  --tw-text-opacity: 1;
+  color: rgb(114 136 180 / var(--tw-text-opacity));
+}
+
+.text-\[\#677da8\] {
+  --tw-text-opacity: 1;
+  color: rgb(103 125 168 / var(--tw-text-opacity));
+}
+
+.text-\[\#7f91b5\] {
+  --tw-text-opacity: 1;
+  color: rgb(127 145 181 / var(--tw-text-opacity));
+}
+
+.text-\[\#8698bc\] {
+  --tw-text-opacity: 1;
+  color: rgb(134 152 188 / var(--tw-text-opacity));
+}
+
+.placeholder-opacity-70::-moz-placeholder {
+  --tw-placeholder-opacity: 0.7;
+}
+
+.placeholder-opacity-70::placeholder {
+  --tw-placeholder-opacity: 0.7;
+}
+
+.placeholder-opacity-50::-moz-placeholder {
+  --tw-placeholder-opacity: 0.5;
+}
+
+.placeholder-opacity-50::placeholder {
+  --tw-placeholder-opacity: 0.5;
+}
+
+.placeholder-opacity-10::-moz-placeholder {
+  --tw-placeholder-opacity: 0.1;
+}
+
+.placeholder-opacity-10::placeholder {
+  --tw-placeholder-opacity: 0.1;
 }
 
 .outline-none {
@@ -687,4 +682,100 @@ video {
 .drop-shadow-3xl {
   --tw-drop-shadow: drop-shadow(0 5px 10px rgba(0, 85, 255, 0.25));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.placeholder\:text-xs::-moz-placeholder {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.placeholder\:text-xs::placeholder {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.placeholder\:text-base::-moz-placeholder {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.placeholder\:text-base::placeholder {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.placeholder\:text-sm::-moz-placeholder {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.placeholder\:text-sm::placeholder {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.placeholder\:font-extrabold::-moz-placeholder {
+  font-weight: 800;
+}
+
+.placeholder\:font-extrabold::placeholder {
+  font-weight: 800;
+}
+
+.placeholder\:italic::-moz-placeholder {
+  font-style: italic;
+}
+
+.placeholder\:italic::placeholder {
+  font-style: italic;
+}
+
+.placeholder\:text-\[\#96A6C7\]::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(150 166 199 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-\[\#96A6C7\]::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(150 166 199 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-\[\#96A6C7\/\]::-moz-placeholder {
+  color: #96A6C7/;
+}
+
+.placeholder\:text-\[\#96A6C7\/\]::placeholder {
+  color: #96A6C7/;
+}
+
+.placeholder\:text-\[\#96A6C7\/5\]::-moz-placeholder {
+  color: #96A6C7/5;
+}
+
+.placeholder\:text-\[\#96A6C7\/5\]::placeholder {
+  color: #96A6C7/5;
+}
+
+.placeholder\:text-\[\#96A6C7\/50\]::-moz-placeholder {
+  color: #96A6C7/50;
+}
+
+.placeholder\:text-\[\#96A6C7\/50\]::placeholder {
+  color: #96A6C7/50;
+}
+
+.placeholder\:opacity-50::-moz-placeholder {
+  opacity: 0.5;
+}
+
+.placeholder\:opacity-50::placeholder {
+  opacity: 0.5;
+}
+
+.placeholder\:opacity-70::-moz-placeholder {
+  opacity: 0.7;
+}
+
+.placeholder\:opacity-70::placeholder {
+  opacity: 0.7;
 }

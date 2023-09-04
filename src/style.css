@@ -1,7 +1,5 @@
-@font-face {
-    font-family: 'JetBrains Mono';
-    src: url('assets/fonts/JetBrains/JetBrainsMono-Regular.woff2') format('woff2'),
-        url('assets/fonts/JetBrains/JetBrainsMono-Regular.woff2') format('woff2');
-    font-weight: normal;
+body {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400; /* You can adjust the weight as needed */
     font-style: normal;
 }

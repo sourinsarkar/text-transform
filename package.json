@@ -20,5 +20,7 @@
   "homepage": "https://github.com/sourinsarkar/text-transform#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
   }
 }

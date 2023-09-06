@@ -534,72 +534,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
-}
-
-.right-3 {
-  right: 0.75rem;
-}
-
-.right-2 {
-  right: 0.5rem;
-}
-
-.bottom-1 {
-  bottom: 0.25rem;
-}
-
-.bottom-1\.5 {
-  bottom: 0.375rem;
-}
-
-.bottom-\[\] {
-  bottom: ;
-}
-
-.bottom-\[1\.\] {
-  bottom: 1.;
-}
-
-.bottom-\[1\.5\] {
-  bottom: 1.5;
-}
-
-.bottom-\[1\.5px\] {
-  bottom: 1.5px;
-}
-
-.bottom-\[1\.5p\] {
-  bottom: 1.5p;
-}
-
-.bottom-\[1\] {
-  bottom: 1;
-}
-
-.bottom-\[10px\] {
-  bottom: 10px;
-}
-
-.bottom-\[15px\] {
-  bottom: 15px;
-}
-
-.bottom-\[12px\] {
-  bottom: 12px;
-}
-
-.bottom-\[13px\] {
-  bottom: 13px;
-}
-
-.bottom-\[14px\] {
-  bottom: 14px;
 }
 
 .m-auto {
@@ -620,48 +556,8 @@ video {
   display: flex;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-\[16px\] {
-  height: 16px;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[16\] {
-  height: 16;
-}
-
-.h-\[20px\] {
-  height: 20px;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-\[16px\] {
-  width: 16px;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[16\] {
-  width: 16;
-}
-
-.w-\[20px\] {
-  width: 20px;
 }
 
 .max-w-3xl {
@@ -672,16 +568,8 @@ video {
   max-width: 28rem;
 }
 
-.flex-grow {
-  flex-grow: 1;
-}
-
 .resize-none {
   resize: none;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -718,18 +606,6 @@ video {
   background-color: rgb(228 237 255 / var(--tw-bg-opacity));
 }
 
-.fill-\[\#96A6C7\] {
-  fill: #96A6C7;
-}
-
-.fill-blue-500 {
-  fill: #3b82f6;
-}
-
-.p-1 {
-  padding: 0.25rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -748,33 +624,6 @@ video {
 .text-\[\#8698bc\] {
   --tw-text-opacity: 1;
   color: rgb(134 152 188 / var(--tw-text-opacity));
-}
-
-.text-gray-800 {
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[\#96A6C7\] {
-  --tw-text-opacity: 1;
-  color: rgb(150 166 199 / var(--tw-text-opacity));
-}
-
-.text-\[\#\] {
-  color: #;
-}
-
-.text-\[\#96\] {
-  color: #96;
-}
-
-.text-\[\#96A\] {
-  --tw-text-opacity: 1;
-  color: rgb(153 102 170 / var(--tw-text-opacity));
 }
 
 .caret-\[\#96A6C7\] {
@@ -825,11 +674,4 @@ video {
 
 .placeholder\:opacity-70::placeholder {
   opacity: 0.7;
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
 }

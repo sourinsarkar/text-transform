@@ -8,10 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sourinsarkar/text-transform.git",
-    "buildup": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "url": "git+https://github.com/sourinsarkar/text-transform.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -20,7 +18,5 @@
   "homepage": "https://github.com/sourinsarkar/text-transform#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
-  },
-  "dependencies": {
   }
 }

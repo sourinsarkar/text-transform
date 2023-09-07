@@ -8,18 +8,37 @@
     <link href="/dist/output.css" rel="stylesheet">
     <link href="/src/fonts.css" rel="stylesheet">
     <link href="/src/style.css" rel="stylesheet">
-    
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
     <div class="mx-auto max-w-3xl">
-        <div class="flex items-center">
-            <div class="flex flex-col w-full m-auto max-w-md my-4 relative">
-                <textarea name="prompt" id="prompt-textarea" rows="1" placeholder="Write here"
-                    class="px-5 py-4 bg-[#E4EDFF] border-solid border-[3px] border-[#fff] rounded-[18px] drop-shadow-3xl text-sm text-[#8698bc] placeholder:text-sm placeholder:italic placeholder:text-[#96A6C7] placeholder:opacity-70 caret-[#96A6C7] outline-none resize-none overflow-hidden"></textarea>
+        <div class="flex flex-row items-center max-w-md m-auto my-4">
+            <div id="prompt-textarea-left-box" class="w-[90%]">
+                <div class="flex flex-col w-full">
+                    <textarea name="prompt" id="prompt-textarea" rows="1" placeholder="Write here"
+                        class="px-5 py-4     bg-[#E4EDFF] border-solid border-[3px] border-[#fff] rounded-[18px] drop-shadow-3xl text-sm text-[#8698bc] placeholder:text-sm placeholder:italic placeholder:text-[#96A6C7] placeholder:opacity-70 caret-[#96A6C7] outline-none resize-none overflow-hidden"></textarea>
+                </div>
             </div>
+            <button id="prompt-textarea-right-box" class="w-[10%]">
+                <span class="material-symbols-outlined text-[#96A6C7]">
+                    send
+                </span>
+
+            </button>
         </div>
     </div>
 </body>
 
 </html>
+
+<!-- <div class="flex flex-col w-full m-auto max-w-md my-4">
+    <textarea name="prompt" id="prompt-textarea" rows="1" placeholder="Write here"
+        class="px-5 py-4 bg-[#E4EDFF] border-solid border-[3px] border-[#fff] rounded-[18px] drop-shadow-3xl text-sm text-[#8698bc] placeholder:text-sm placeholder:italic placeholder:text-[#96A6C7] placeholder:opacity-70 caret-[#96A6C7] outline-none resize-none overflow-hidden"></textarea>
+</div>
+<div>
+    <span class="material-symbols-outlined text-[#96A6C7]">
+        send
+    </span>
+</div> -->
